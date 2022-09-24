@@ -2,83 +2,58 @@
   color: white;
 }
 
-html {
- background-image: linear-gradient(to right, rgb(112, 199, 233), rgb(238, 96, 96));
+body {
+  height:100%;
+  min-height: 100%;
+  background-image: linear-gradient(#002e53, #2280ce);
+  font-family: 'Courier New', Courier, monospace;
 }
 
-/*===========Move to sideBar file====================*/
-.sidebarContainerX{
-  width: 12%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 70%;
-  transition: .7s;
-  margin-top: 5%;
+/*lines on the side move them to different file*/
+
+.line{
   border: 1px solid;
-  border-radius: 50px;
-  border-left: none;
+  border-width: thin;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  width: 8%;
+  position: fixed;
+  bottom: 5%;
 }
 
-.sidebarContainer{
-  width: 20%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  transform: translateX(-350px);
-  transition: .7s;
-  opacity: 0.1;
+.line2{
+  right: 0;
 }
 
-.sidebarHref{
-  width: 15%;
-  position: relative;
-  top: 90%;
-  padding: 0%;
+.email{
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  width: 5%;
+  position: fixed;
+  bottom: 30%;
+  left: 1.65%;
 }
 
-.sidebarImg{
-  width: 20%;
-  margin: 6%;
-  margin-left: 15%;
+.linkedInGitHub{
+ position: fixed;
+ bottom: 15%;
+ right: 3.6%;
+ transition: bottom ease .2s;
+ font-size: 1.2rem
 }
 
-.dropdownBtn{
-  font-size: 4rem;
-  position: absolute;
-  left: 93%;
-  top: 3%;
+.linkedIn:hover{
+  bottom: 15.6%
 }
 
-.dropdownBtn:hover{
-transform: scale(1.2);
-transition: .5s;
-cursor: pointer;
+.gitHub{
+  bottom: 20%;
 }
 
-.sidebarLinksContainer{
-  position: absolute;
-  top: 5%;
-  display: flex;
-  flex-direction: column;
-  margin-left: 10%;
-  margin-top: 5%;
+.gitHub:hover{
+  bottom: 20.6%;
 }
-
-.sidebarLinks{
- text-decoration: none;
-  font-size: 2rem;
-  margin-top: 50%;
-}
-
-.sidebarLinks:hover{
-  transition: .5s;
-  -webkit-text-stroke: 1px white;
-  transform: translateX(10px);
-}
-
-/*===========end of sidebar CSS====================*/
+/*=========end of lines on side========*/
 
 /*===========move to Home page CSS file============*/
 
@@ -88,25 +63,209 @@ cursor: pointer;
   position: relative;
   top: 250px;
   font-weight: 500;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-family: cursive;
 }
 
 .homeHeader2{
   margin-top: .5%;
   font-size: 2.5rem;
+  opacity: 90%;
 }
 
 .homeContainer{
-  display: flex;
-  flex-direction: column;
+  height: 100vh;
 }
 
 .photoOfMe{
-  width: 25%;
-  border-radius: 200px;
+  width: 20%;
+  border-radius: 250px;
   position: absolute;
-  top: 25%;
-  left: 22%;
+  top: 24%;
+  left: 27%;
 }
+
+.fa-brands{
+  margin-right: 1%;
+}
+
+.fa-solid{
+  margin-right: 1%;
+}
+
+.homeList{
+  margin-top: 2%;
+  font-size: 1.2rem;
+  position: relative;
+  left: 51%;
+  top: 250px;
+}
+
+.homePageGhubLinkedIn{
+  font-size: 120%;
+  margin-left: 2.2%;
+}
+
+/*=============end of homePage CSS============*/
+
+/*==============Move to Projects CSS =========*/
+
+.projects{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 30%
+}
+
+.proj{
+  width: 35%;
+  height: 10vh;
+  border: 3px solid;
+  margin: 3%;
+  margin-top: 5%
+}
+
+
+
+
+/*======put in globalNavBar CSS =======*/
+.globalNavBar{
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin: 0 auto;
+  margin-left: 28%;
+  padding: .5%;
+  border-bottom: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.headerText{
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: .5s ease-out;
+  opacity: 50%;
+}
+
+.headerText:hover{
+  transform: scale(1.1);
+  opacity: 100%;
+  cursor: pointer;
+}
+
+/*=========end of that one 4 now===========*/
+/*============About me=====================*/
+
+.aboutMeContainer{
+  width: 100%;
+  text-align: center;
+  height: 75vh;
+}
+
+.aboutMeHeader{
+  font-size: 1.5rem;
+  color:  #9dd4ff;
+}
+
+.aboutMeParagraph{
+  width: 40%;
+  margin-left: 20%;
+  margin-top: 5%;
+  font-size: 1.5rem;
+  font-family: cursive;
+  opacity: 50%;
+}
+
+/*=======end of aboutMe ========*/
+/*=======skills=================*/
+
+.skillsContainer{
+  text-align: center;
+}
+
+.skillsHeader{
+  font-size: 1.5rem;
+  color:  #9dd4ff;
+}
+
+
+.theLine{
+  width: 40%;
+  border: 2px solid #2280ce;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  margin-left: 50%;
+  margin-top: 1%;
+  opacity: 60%;
+}
+
+.theFiller{
+  width: 30%;
+  border: 2px solid;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  margin-left: 50%;
+  color: black;
+  position: relative;
+  bottom: 2px;
+  color: rgb(73, 243, 255);
+  opacity: 70%;
+}
+
+.frontEnd{
+  margin-left: 4.8%;
+  margin-top: 5%;
+  font-size: 1.3rem;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.backEnd{
+  margin-left: 4.8%;
+  margin-top: 3%;
+  font-size: 1.3rem;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.backEndFiller{
+  width: 23%;
+  color: rgb(255, 64, 64);
+}
+
+.reactJsFiller{
+  width: 33%;
+  color:rgb(206, 82, 255)
+}
+
+.nodeJsFiller{
+  width: 20%;  
+  color:rgb(52, 255, 137)
+}
+
+.proficientBox{
+  width: 30%;
+  background-color: #015091;
+  height: 48vh;
+  position: absolute;
+  left: 12%;
+  top: 185%;
+  border-radius: 80px;
+}
+
+.proficientHeader{
+  font-size: 1.5rem;
+  margin-top: 8%;
+  margin-left: 7%;
+}
+
+.mySkills{
+  margin: 2%;
+  font-size: 1rem;
+  width: 33%;
+  padding: 4%;
+}
+
 
 
