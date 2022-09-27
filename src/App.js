@@ -8,6 +8,7 @@ import AboutMe from './components/aboutMe'
 import Skills from './components/skills'
 
 function App() {
+
   return (
     <div className='container'>
       <div className='email'>jordonaren@gmail.com</div>

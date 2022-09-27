@@ -17,13 +17,22 @@ const Skills = () => {
                         <div className='theLine'></div>
                         <div className='theFiller nodeJsFiller'></div>
                 <div className='proficientBox'>
-                    <h2 className='proficientHeader'>Proficient with : </h2>
-                        <h3 className='mySkills'>ReactJS</h3>
-                        <h3 className='mySkills'>JavaScript</h3>
-                        <h3 className='mySkills'>HTML</h3>
-                        <h3 className='mySkills'>CSS</h3>
-                        <h3 className='mySkills'>NodeJS</h3>
-                        <h3 className='mySkills'>Express</h3>
+                    <div className="proficientContainer">
+                        <h2 className='proficientHeader'>Proficient with : </h2>
+                            <div className='mySkills mySkills2'>ReactJS</div>
+                            <div className='mySkills mySkills2'>JavaScript</div>
+                            <div className='mySkills mySkills2'>HTML</div>
+                            <div className='mySkills mySkills2'>CSS</div>
+                            <div className='mySkills mySkills2'>NodeJS</div>
+                            <div className='mySkills mySkills2'>Express</div>
+                    </div>
+                    <div className="proficientContainer proficientContainer2">
+                    <h2 className='proficientHeader'>Imporving, but understand : </h2>
+                        <div className='mySkills mySkillsImproving'>Redux</div>
+                        <div className='mySkills mySkillsImproving'>Python</div>
+                        <div className='mySkills mySkillsImproving'>SQL</div>
+                        <div className='mySkills mySkillsImproving'>MongoDB</div>
+                    </div>
                 </div>
 
         </div>

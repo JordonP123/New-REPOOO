@@ -2,8 +2,18 @@ import React from 'react'
 import photoOfMe from '../img/pictureOfMe.jpg'
 
 const Home = () => {
+
+const [moving, setMoving] = React.useState(false)
+
+if(moving === true || moving === false){
+    setTimeout(() => {
+        setMoving(!moving)
+    }, 400)
+}
+
     return(
-        <div className='homeContainer'>
+        <div id='home' className='homeContainer'>
+            <div className="photoOfMeBox"></div>
         <img className='photoOfMe' src={photoOfMe} alt = 'Of user'></img>
         <p className='homeHeader'>Hi, I'm Jordon</p>
         <p className='homeHeader homeHeader2'>Full Stack Web Developer</p>
@@ -29,8 +39,13 @@ const Home = () => {
             </a>
             </li>
         </ul>
+            <a href='#aboutMe' className='showMore' alt = 'show more'>Show more<br></br>
+                <i className={moving ? "fa-solid fa-chevron-down" : 'fa-solid fa-chevron-down moving'}></i>
+            </a>
+
         </div>
     )
 }
+
 
 export default Home

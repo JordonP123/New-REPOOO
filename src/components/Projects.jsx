@@ -2,7 +2,8 @@ import React from 'react'
 
 const Projects = () => {
     return(
-        <div className='container'>
+        <div id = 'projects' className='projContainer'>
+            <div className='projectsHeader'>A few things I've built</div>
             <section className='projects'>
                 <div className='proj proj1'>
                     <h1>Nasa Photo of the day</h1>
