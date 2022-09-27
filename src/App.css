@@ -63,7 +63,7 @@ body {
   font-size: 3.5rem;
   margin-left: 50%;
   position: relative;
-  top: 250px;
+  top: 20%;
   font-weight: 500;
 }
 
@@ -81,7 +81,7 @@ body {
   width: 20%;
   border-radius: 10px;
   position: absolute;
-  top: 26%;
+  top: 20%;
   left: 25%;
 }
 
@@ -90,7 +90,7 @@ body {
   height: 39vh;
   border-radius: 10px;
   position: absolute;
-  top: 30%;
+  top: 24%;
   left: 23.5%;
   border: 1px solid;
 }
@@ -109,7 +109,11 @@ body {
   font-size: 1.2rem;
   position: relative;
   left: 51%;
-  top: 250px;
+}
+
+.homeListContainer{
+  position: relative;
+  top: 20%;
 }
 
 .homePageGhubLinkedIn{

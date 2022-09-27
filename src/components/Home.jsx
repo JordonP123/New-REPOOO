@@ -17,7 +17,7 @@ if(moving === true || moving === false){
         <img className='photoOfMe' src={photoOfMe} alt = 'Of user'></img>
         <p className='homeHeader'>Hi, I'm Jordon</p>
         <p className='homeHeader homeHeader2'>Full Stack Web Developer</p>
-        <ul>
+        <ul className='homeListContainer'>
             <li className='homeList'>
                 <i className='fa-solid fa-mug-hot'/> Yes, I love coffee
             </li>
