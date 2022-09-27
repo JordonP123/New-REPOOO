@@ -17,8 +17,9 @@ const Skills = () => {
                         <div className='theLine'></div>
                         <div className='theFiller nodeJsFiller'></div>
                 <div className='proficientBox'>
-                    <div className="proficientContainer">
+                    <div className="mySkillsContainer">
                         <h2 className='proficientHeader'>Proficient with : </h2>
+                        <div className="proficientContainer">
                             <div className='mySkills mySkills2'>ReactJS</div>
                             <div className='mySkills mySkills2'>JavaScript</div>
                             <div className='mySkills mySkills2'>HTML</div>
@@ -26,8 +27,9 @@ const Skills = () => {
                             <div className='mySkills mySkills2'>NodeJS</div>
                             <div className='mySkills mySkills2'>Express</div>
                     </div>
+                    </div>
                     <div className="proficientContainer proficientContainer2">
-                    <h2 className='proficientHeader'>Imporving, but understand : </h2>
+                    <h2 className='proficientHeader proficientHeader2'>Improving, but understand : </h2>
                         <div className='mySkills mySkillsImproving'>Redux</div>
                         <div className='mySkills mySkillsImproving'>Python</div>
                         <div className='mySkills mySkillsImproving'>SQL</div>

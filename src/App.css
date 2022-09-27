@@ -1,31 +1,31 @@
-*{
+* {
   color: white;
-  scroll-behavior:smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-  height:100%;
+  height: 100%;
   min-height: 100%;
   background-image: linear-gradient(#002e53, #2280ce);
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 /*lines on the side move them to different file*/
 
-.line{
+.line {
   border: 1px solid;
   border-width: thin;
-  -webkit-transform: rotate(90deg); 
+  -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
   width: 8%;
   position: fixed;
   bottom: 5%;
 }
 
-.line2{
+.line2 {
   right: 0;
 }
 
-.email{
+.email {
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
   width: 5%;
@@ -33,33 +33,33 @@ body {
   bottom: 27%;
   left: 1.7%;
   font-weight: 100;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.linkedInGitHub{
- position: fixed;
- bottom: 15%;
- right: 3.6%;
- transition: bottom ease .2s;
- font-size: 1.2rem
+.linkedInGitHub {
+  position: fixed;
+  bottom: 15%;
+  right: 3.6%;
+  transition: bottom ease 0.2s;
+  font-size: 1.2rem;
 }
 
-.linkedIn:hover{
-  bottom: 15.6%
+.linkedIn:hover {
+  bottom: 15.6%;
 }
 
-.gitHub{
+.gitHub {
   bottom: 20%;
 }
 
-.gitHub:hover{
+.gitHub:hover {
   bottom: 20.6%;
 }
 /*=========end of lines on side========*/
 
 /*===========move to Home page CSS file============*/
 
-.homeHeader{
+.homeHeader {
   font-size: 3.5rem;
   margin-left: 50%;
   position: relative;
@@ -67,17 +67,17 @@ body {
   font-weight: 500;
 }
 
-.homeHeader2{
-  margin-top: .5%;
+.homeHeader2 {
+  margin-top: 0.5%;
   font-size: 2.5rem;
   opacity: 90%;
 }
 
-.homeContainer{
+.homeContainer {
   height: 100vh;
 }
 
-.photoOfMe{
+.photoOfMe {
   width: 20%;
   border-radius: 10px;
   position: absolute;
@@ -85,7 +85,7 @@ body {
   left: 25%;
 }
 
-.photoOfMeBox{
+.photoOfMeBox {
   width: 20%;
   height: 39vh;
   border-radius: 10px;
@@ -95,33 +95,32 @@ body {
   border: 1px solid;
 }
 
-
-.fa-brands{
+.fa-brands {
   margin-right: 1%;
 }
 
-.fa-solid{
+.fa-solid {
   margin-right: 1%;
 }
 
-.homeList{
+.homeList {
   margin-top: 2%;
   font-size: 1.2rem;
   position: relative;
   left: 51%;
 }
 
-.homeListContainer{
+.homeListContainer {
   position: relative;
   top: 20%;
 }
 
-.homePageGhubLinkedIn{
+.homePageGhubLinkedIn {
   font-size: 120%;
   margin-left: 2.2%;
 }
 
-.showMore{
+.showMore {
   position: relative;
   left: 46%;
   top: 35%;
@@ -129,71 +128,151 @@ body {
   text-decoration: none;
 }
 
-.fa-chevron-down{
-font-size: 4rem;
-margin-left: 4%;
-transition: 500ms;
+.fa-chevron-down {
+  font-size: 4rem;
+  margin-left: 4%;
+  transition: 500ms;
 }
 
-.moving{
-font-size: 4rem;
-margin-left: 4%;
-transform:translateY(010px);
+.moving {
+  font-size: 4rem;
+  margin-left: 4%;
+  transform: translateY(010px);
 }
 
 /*=============end of homePage CSS============*/
 
 /*==============Move to Projects CSS =========*/
 
-.projContainer{
-  margin-top: 20%
+.projContainer {
+  margin: 0 auto;
+  margin-top: 15%;
+  width: 70%;
 }
 
-.projectsHeader{
+.projectsHeader {
   font-size: 1.5rem;
-  color:  #9dd4ff;
+  color: #9dd4ff;
   margin-left: 40%;
+  padding-top: 10%;
 }
 
-.projects{
+.projects {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
-.proj{
-  width: 35%;
-  height: 20vh;
-  border: 3px solid;
-  margin: 3%;
-  margin-top: 5%
+.nasaPhoto {
+  height: 50vh;
+  border-radius: 20px;
+  width: 100%;
+  transition: 0.5s;
 }
 
+.nasaPhotoActive {
+  height: 50vh;
+  border-radius: 20px;
+  width: 100%;
+  transform: translateX(5px);
+  transition: 0.5s;
+}
 
+.nasaPhoto:hover {
+  transform: translateY(-5px);
+  opacity: 75%;
+}
 
+.nasaPhotoActive:hover {
+  transform: translateY(-5px);
+  opacity: 75%;
+}
+
+.proj {
+  width: 45%;
+  height: 50vh;
+  margin-top: 5%;
+}
+
+.proj1 {
+  width: 45%;
+  height: 50vh;
+  margin-top: 5%;
+}
+
+.proj1LangsContainer{
+  position: relative;
+  bottom: 50%;
+  display: flex;
+}
+
+.proj1LangsContainerNull{
+display: none;
+}
+
+.proj1Langs{
+  background: rgb(105, 101, 101, .95);
+  width: 10%;
+  border-radius: 100px;
+  height: 2vh;
+  text-align: center;
+  font-size: .8rem;
+  margin: 2%;
+  padding-top: 1%;
+}
+.proj1LangsLongWord{
+  width: 17%;
+  height: 3vh;
+}
+.proj1LangsLongWord2{
+  width: 15%;
+  height: 2vh;
+  padding-top: 1%;
+}
+
+.proj1HeaderDesc{
+  position: relative;
+  bottom: 50%;
+  left: 5%;
+}
+
+.proj1HeaderDescNull{
+display: none;
+}
+
+.proj1Header{
+  color: white;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.proj1Desc{
+margin-top: 5%;
+font-weight: 500;
+}
 
 /*======put in globalNavBar CSS =======*/
-.globalNavBar{
+.globalNavBar {
   display: flex;
   justify-content: space-around;
   width: 50%;
   margin: 0 auto;
   margin-left: 28%;
-  padding: .5%;
+  padding: 0.5%;
   border-bottom: none;
   position: fixed;
   top: 0;
   right: 0;
 }
 
-.headerText{
+.headerText {
   font-size: 1.2rem;
   text-decoration: none;
-  transition: .3s ease-out;
+  transition: 0.3s ease-out;
   opacity: 50%;
 }
 
-.headerText:hover{
+.headerText:hover {
   transform: scale(1.1);
   opacity: 100%;
   cursor: pointer;
@@ -202,19 +281,19 @@ transform:translateY(010px);
 /*=========end of that one 4 now===========*/
 /*============About me=====================*/
 
-.aboutMeContainer{
+.aboutMeContainer {
   width: 100%;
   text-align: center;
   height: 75vh;
 }
 
-.aboutMeHeader{
+.aboutMeHeader {
   font-size: 1.5rem;
-  color:  #9dd4ff;
+  color: #9dd4ff;
   padding-top: 5%;
 }
 
-.aboutMeParagraph{
+.aboutMeParagraph {
   width: 40%;
   margin-left: 20%;
   margin-top: 5%;
@@ -226,17 +305,18 @@ transform:translateY(010px);
 /*=======end of aboutMe ========*/
 /*=======skills=================*/
 
-.skillsContainer{
+.skillsContainer {
   text-align: center;
+  margin-top: 2%;
 }
 
-.skillsHeader{
+.skillsHeader {
   font-size: 1.5rem;
-  color:  #9dd4ff;
+  color: #9dd4ff;
+  padding-top: 10%;
 }
 
-
-.theLine{
+.theLine {
   width: 40%;
   border: 2px solid #2280ce;
   border-left: none;
@@ -247,7 +327,7 @@ transform:translateY(010px);
   opacity: 60%;
 }
 
-.theFiller{
+.theFiller {
   width: 30%;
   border: 2px solid;
   border-left: none;
@@ -261,78 +341,81 @@ transform:translateY(010px);
   opacity: 70%;
 }
 
-.frontEnd{
+.frontEnd {
   margin-left: 4.8%;
   margin-top: 5%;
   font-size: 1.3rem;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.backEnd{
+.backEnd {
   margin-left: 4.8%;
   margin-top: 3%;
   font-size: 1.3rem;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.backEndFiller{
+.backEndFiller {
   width: 23%;
   color: rgb(255, 64, 64);
 }
 
-.reactJsFiller{
+.reactJsFiller {
   width: 33%;
-  color:rgb(206, 82, 255)
+  color: rgb(206, 82, 255);
 }
 
-.nodeJsFiller{
-  width: 20%;  
-  color:rgb(52, 255, 137)
+.nodeJsFiller {
+  width: 20%;
+  color: rgb(52, 255, 137);
 }
 
-.proficientBox{
+.proficientBox {
   width: 30%;
   background-color: #015091;
   height: 55vh;
   position: absolute;
   left: 12%;
-  top: 185%;
+  top: 210%;
   border-radius: 80px;
 }
 
-.proficientContainer{
-  width: 50%;
+.proficientContainer {
+  width: 80%;
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
+  margin-left: 10%;
 }
 
-.proficientHeader{
+.proficientHeader {
   font-size: 1.1rem;
-  width: 80%;
-  margin-top: 15%;
-  margin-left: 17%;
+  width: 70%;
+  margin-top: 10%;
+  margin-left: 15%;
   border: 1px solid;
   border-top: none;
   border-left: none;
   border-right: none;
 }
 
-.mySkills{
-  margin: 2%;
+.proficientHeader2 {
+  width: 88%;
+  margin-left: 7%;
+}
+
+.mySkills {
   font-size: 1rem;
-  padding: 10%;
+  padding: 7%;
+  margin-left: 7%;
 }
 
-.mySkills2{
-  margin: .5%;
+.mySkills2 {
+  margin: 1%;
+  margin-left: 3%;
 }
 
-.proficientContainer2{
- position: relative;
- bottom: 103.7%;
- left: 45%;
+.proficientContainer2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10%;
 }
-
-
-
