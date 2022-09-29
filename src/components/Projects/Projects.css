@@ -1,0 +1,106 @@
+.projContainer {
+    margin: 0 auto;
+    margin-top: 15%;
+    width: 70%;
+  }
+  
+  .projectsHeader {
+    font-size: 1.5rem;
+    color: #9dd4ff;
+    margin-left: 40%;
+    padding-top: 10%;
+  }
+  
+  .projects {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  .nasaPhoto {
+    height: 50vh;
+    border-radius: 20px;
+    width: 100%;
+    transition: 0.5s;
+  }
+  
+  .nasaPhotoActive {
+    height: 50vh;
+    border-radius: 20px;
+    width: 100%;
+    transform: translateX(5px);
+    transition: 0.5s;
+  }
+  
+  .nasaPhoto:hover {
+    transform: translateY(-5px);
+    opacity: 75%;
+  }
+  
+  .nasaPhotoActive:hover {
+    transform: translateY(-5px);
+    opacity: 75%;
+  }
+  
+  .proj {
+    width: 45%;
+    height: 50vh;
+    margin-top: 5%;
+  }
+  
+  .proj1 {
+    width: 45%;
+    height: 50vh;
+    margin-top: 5%;
+  }
+  
+  .proj1LangsContainer{
+    position: relative;
+    bottom: 50%;
+    display: flex;
+  }
+  
+  .proj1LangsContainerNull{
+  display: none;
+  }
+  
+  .proj1Langs{
+    background: rgb(105, 101, 101, .95);
+    width: 10%;
+    border-radius: 100px;
+    height: 2vh;
+    text-align: center;
+    font-size: .8rem;
+    margin: 2%;
+    padding-top: 1%;
+  }
+  .proj1LangsLongWord{
+    width: 17%;
+    height: 3vh;
+  }
+  .proj1LangsLongWord2{
+    width: 15%;
+    height: 2vh;
+    padding-top: 1%;
+  }
+  
+  .proj1HeaderDesc{
+    position: relative;
+    bottom: 50%;
+    left: 5%;
+  }
+  
+  .proj1HeaderDescNull{
+  display: none;
+  }
+  
+  .proj1Header{
+    color: white;
+    font-size: 3rem;
+    font-weight: 800;
+  }
+  
+  .proj1Desc{
+  margin-top: 5%;
+  font-weight: 500; 
+  }

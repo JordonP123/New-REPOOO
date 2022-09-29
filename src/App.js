@@ -1,11 +1,16 @@
 import React, { useState } from 'react'
 import './reset.css'
 import './App.css';
-import Home from './components/Home'
-import Projects from './components/Projects'
-import GlobalNavBar from './components/globalNavBar'
-import AboutMe from './components/aboutMe'
-import Skills from './components/skills'
+import './components/Home/Home.css'
+import './components/aboutMe/aboutMe.css'
+import './components/Projects/Projects.css'
+import './components/skills/skills.css'
+import './components/globalNavBar/globalNavBar.css'
+import Home from './components/Home/Home'
+import Projects from './components/Projects/Projects'
+import GlobalNavBar from './components/globalNavBar/globalNavBar'
+import AboutMe from './components/aboutMe/aboutMe'
+import Skills from './components/skills/skills'
 
 function App() {
 

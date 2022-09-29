@@ -1,6 +1,6 @@
 import React from "react";
-import ProjectNasaPhoto from "../img/nasaPhoto.png";
-import marsPhoto from "../img/mars.png";
+import ProjectNasaPhoto from "../../img/nasaPhoto.png";
+import marsPhoto from "../../img/mars.png";
 
 const Projects = () => {
   const [photoChanger, setPhotoChanger] = React.useState(false);

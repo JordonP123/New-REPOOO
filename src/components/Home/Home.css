@@ -1,0 +1,133 @@
+.homeHeader {
+    font-size: 3.5rem;
+    margin-left: 50%;
+    position: relative;
+    top: 20%;
+    font-weight: 500;
+    transform: translateY(0);
+    transition: 1s;
+  }
+
+  .homeHeaderMoved {
+    font-size: 3.5rem;
+    margin-left: 50%;
+    position: relative;
+    top: 20%;
+    font-weight: 500;
+    transform: translateY(-400px);
+    transition: 1s;
+  }
+  
+  .homeHeader2 {
+    margin-top: 0.5%;
+    font-size: 2.5rem;
+    opacity: 90%;
+    transform: translateY(0);
+    transition: 1s;
+  }
+
+  .homeHeader2Moved {
+    margin-top: 0.5%;
+    font-size: 2.5rem;
+    opacity: 90%;
+    transform: translateY(-400px);
+    transition: 1s;
+  }
+  
+  .homeContainer {
+    height: 100vh;
+  }
+  
+  .photoOfMe {
+    width: 20%;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    transform: translateX(0);
+    transition: 1s;
+  }
+
+  .photoOfMeMoved {
+    width: 20%;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    transform: translateX(-200px);
+  }
+  
+  .photoOfMeBox {
+    width: 20%;
+    height: 39vh;
+    border-radius: 10px;
+    position: absolute;
+    top: 24%;
+    left: 23.5%;
+    border: 1px solid;
+  }
+  
+  .fa-brands {
+    margin-right: 1%;
+  }
+
+ .gHubLinkedIn{
+    font-size: 120%;
+    margin-left: 2.2%;
+    transform: translateX(0);
+    transition: 1s;
+ }
+
+ .gHubLinkedInMoved{
+    font-size: 120%;
+    margin-left: 2.2%;
+    transform: translateY(-700px);
+    transition: 1s;
+ }
+  
+  .fa-solid {
+    margin-right: 1%;
+  }
+  
+  .homeList {
+    margin-top: 2%;
+    font-size: 1.2rem;
+    position: relative;
+    left: 51%;
+    transform: translateX(0);
+    transition: 1s;
+  }
+
+  .homeListMoved {
+    margin-top: 2%;
+    font-size: 1.2rem;
+    position: relative;
+    left: 51%;
+    transform: translateY(-600px);
+    transition: 1s;
+  }
+  
+  .homeListContainer {
+    position: relative;
+    top: 20%;
+  }
+  
+  .showMore {
+    position: relative;
+    left: 46%;
+    top: 35%;
+    font-size: 2.5rem;
+    text-decoration: none;
+  }
+  
+  .fa-chevron-down {
+    font-size: 4rem;
+    margin-left: 4%;
+    transition: 500ms;
+  }
+  
+  .moving {
+    font-size: 4rem;
+    margin-left: 4%;
+    transform: translateY(010px);
+  }
